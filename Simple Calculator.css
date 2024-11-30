@@ -1,0 +1,37 @@
+#Container{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    background-image: url(https://media.gettyimages.com/id/1360711872/photo/blue-calculator-and-math-symbols-on-a-universal-gray-background-gray-background-blue.jpg?s=612x612&w=gi&k=20&c=REdnGxUEuB536lNPzCa3vhCtMqdiV77Wrwrx67ySysQ=); background-repeat: no-repeat;background-size: cover;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+label{
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+input{
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+button{
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+#result{
+    position: relative;
+    top: 80px;
+    left: 150px;
+
+
+}
