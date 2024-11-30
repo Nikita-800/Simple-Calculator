@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Container">
+    <div id="Box"></div>
+    <h1> <b> Simple Calculator</b></h1>
+    <Form action="Backend.py">
+        <label> <b>Enter a </b>:</label>
+        <input type="text" id="a" placeholder="First Number"style="background-color: aqua;"><br><br><br>
+        <label> <b>Enter b</b> :</label>
+        <input type="text" id="b" placeholder="Second Number" style="background-color: aqua;"><br><br>
+        <button type="button" onclick="getadd()" style="color:blue;"><b>Add +</b></button>
+        <button type="button" onclick="getsub()" style="color: blue;"><b>Sub -</b></button>
+        <button type="button" onclick="getmul()" style="color:blue;"><b>Mul *</b></button>
+        <button type="button" onclick="getdiv()" style="color:blue;"><b>Div /</b></button>
+        <p id ="result"></p>
+    </div>
+     <!-- <h1 id="heading">This is Heading</h1> -->
+    <script src="script2.js"></script>
+    
+</body>
+</html>
